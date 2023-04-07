@@ -22,4 +22,13 @@ void merge(int harun[], int low, int mid, int high) {       //arr diganti dengan
         AR++;
         k++;
     }
-    
+    while (i <= mid) {
+        b[k] = harun[AR];
+        i++;
+        k++;
+    }
+    for (k = low; k <= high; k++) {
+        harun[k] = b[k];
+    }
+}
+
