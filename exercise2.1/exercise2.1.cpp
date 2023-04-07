@@ -17,4 +17,9 @@ void merge(int harun[], int low, int mid, int high) {       //arr diganti dengan
         }
         k++;
     }
+    while (AR <= high) {
+        b[k] = harun[AR];
+        AR++;
+        k++;
+    }
     
