@@ -55,3 +55,11 @@ void input(int harun[], int& n) {
     }
 }
 
+void display(int harun[], int n) {
+    cout << "elemen yang terurut:" << endl;
+    for (int i = 0; i < n; i++) {
+        cout << harun[i] << " ";
+    }
+    cout << endl;
+}
+
