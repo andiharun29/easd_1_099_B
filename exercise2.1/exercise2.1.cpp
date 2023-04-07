@@ -63,3 +63,12 @@ void display(int harun[], int n) {
     cout << endl;
 }
 
+int main() {
+    int harun[MAX_DATA];
+    int n;
+    input(harun, n);
+    mergeSort(harun, 0, n - 1);
+    display(harun, n);
+    return 0;
+
+}
