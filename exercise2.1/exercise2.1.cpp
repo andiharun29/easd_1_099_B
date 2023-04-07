@@ -42,3 +42,7 @@ void mergeSort(int harun[], int low, int high) {
     merge(harun, low, mid, high);
 }
 
+void input(int harun[], int& n) {
+    cout << "masukkan jumlah elemen (maximum " << MAX_DATA << "): ";
+    cin >> n;
+   
