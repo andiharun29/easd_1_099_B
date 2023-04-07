@@ -32,3 +32,8 @@ void merge(int harun[], int low, int mid, int high) {       //arr diganti dengan
     }
 }
 
+void mergeSort(int harun[], int low, int high) {
+    if (low >= high) {
+        return;
+    }
+    
