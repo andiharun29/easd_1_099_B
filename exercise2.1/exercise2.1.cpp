@@ -49,4 +49,9 @@ void input(int harun[], int& n) {
         cout << "jumlah elemen maksimum yang dizinkan!" << endl;
         exit(1);
     }
-   
+    cout << "masukkan elemen:" << endl;
+    for (int i = 0; i < n; i++) {
+        cin >> harun[i];
+    }
+}
+
