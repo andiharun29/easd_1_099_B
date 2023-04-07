@@ -36,4 +36,9 @@ void mergeSort(int harun[], int low, int high) {
     if (low >= high) {
         return;
     }
-    
+    int mid = (low + high) / 2;
+    mergeSort(harun, low, mid);
+    mergeSort(harun, mid + 1, high);
+    merge(harun, low, mid, high);
+}
+
